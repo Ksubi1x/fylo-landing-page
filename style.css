@@ -397,6 +397,11 @@
 
 /* HOVER EFFECTS */
 
+.more-info:hover {
+    cursor: pointer;
+    color: hsl(198, 60%, 50%);
+}
+
 .menu a:hover {
     text-decoration: underline;
 }
