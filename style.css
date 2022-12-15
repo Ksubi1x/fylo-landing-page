@@ -395,6 +395,16 @@
     text-decoration: none;
 }
 
+/* CREDITS */
+
+.credits {
+    text-align: center;
+}
+
+.creditsText a {
+    color: hsl(198, 60%, 50%);
+}
+
 /* HOVER EFFECTS */
 
 .more-info:hover {
@@ -428,9 +438,7 @@
     color: hsl(176, 68%, 64%);
 }
 
-footer {
-    text-align: center;
-}
+
 
 /* MEDIA QUERY FOR DESKTOP */
 
@@ -440,7 +448,7 @@ footer {
     }
 
     #logo2 {
-        width: 15%;
+        width: 10%;
     }
 
     /* HEADER */
@@ -550,7 +558,7 @@ footer {
     .footer {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .location {
