@@ -15,7 +15,6 @@
 }
 
 .container {
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -268,6 +267,7 @@
     border-radius: 30px;
     border: none;
     outline: none;
+    color: black;
 }
 
 .signup input::placeholder {
@@ -420,6 +420,16 @@
 
 .help ul li a:hover {
     text-decoration: underline;
+}
+
+/* ATTRIBUTION */
+
+.completed a {
+    color: hsl(176, 68%, 64%);
+}
+
+footer {
+    text-align: center;
 }
 
 /* MEDIA QUERY FOR DESKTOP */
